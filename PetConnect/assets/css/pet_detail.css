@@ -1,0 +1,70 @@
+#pet-detail-container .card {
+    border: none;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+#pet-detail-container img {
+    width: 100%;
+    max-height: 420px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+    background: #f0f0f0;
+    padding: 5px;
+}
+
+#pet-posts-container .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: transform .15s;
+}
+
+#pet-posts-container .card:hover {
+    transform: scale(1.01);
+}
+
+#pet-posts-container img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    object-position: center top;
+    background: #f0f0f0;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+#pet-posts-container h3 {
+    font-size: 1.4rem;
+    margin-bottom: .4rem;
+}
+
+.delete-post-btn {
+    float: right;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.05rem;
+}
+
+.navbar .nav-link:hover {
+    color: #007bff !important;
+}
+
+#pet-detail-container,
+#pet-posts-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#pet-detail-container .card,
+#pet-posts-container .card {
+    max-width: 760px;
+    margin: 0 auto;
+}
